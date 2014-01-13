@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		612E9D8E371C4646A1423C9F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAEB9EC4CA8491CB9AD04A1 /* libPods.a */; };
+		A0783586187FEBA7002A8AE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0783585187FEBA7002A8AE9 /* Foundation.framework */; };
+		A078358B187FEBA7002A8AE9 /* SyncKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A078358A187FEBA7002A8AE9 /* SyncKit.h */; };
+		A0783594187FEBA7002A8AE9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0783593187FEBA7002A8AE9 /* XCTest.framework */; };
+		A0783595187FEBA7002A8AE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0783585187FEBA7002A8AE9 /* Foundation.framework */; };
+		A0783597187FEBA7002A8AE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0783596187FEBA7002A8AE9 /* UIKit.framework */; };
+		A078359A187FEBA7002A8AE9 /* libSyncKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0783582187FEBA7002A8AE9 /* libSyncKit.a */; };
+		A07835A0187FEBA7002A8AE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A078359E187FEBA7002A8AE9 /* InfoPlist.strings */; };
+		A07835A2187FEBA7002A8AE9 /* SyncKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A07835A1187FEBA7002A8AE9 /* SyncKitTests.m */; };
+		A07835AD187FF089002A8AE9 /* AGDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A07835AC187FF089002A8AE9 /* AGDocument.m */; };
+		A07835B0187FF6E5002A8AE9 /* AGSyncClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A07835AF187FF6E5002A8AE9 /* AGSyncClient.m */; };
+		A07835B2187FFCBB002A8AE9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07835B1187FFCBB002A8AE9 /* MobileCoreServices.framework */; };
+		A07835B4187FFCC2002A8AE9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07835B3187FFCC2002A8AE9 /* SystemConfiguration.framework */; };
+		A07835B6187FFCC9002A8AE9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07835B5187FFCC9002A8AE9 /* Security.framework */; };
+		A07835B8187FFCD1002A8AE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07835B7187FFCD1002A8AE9 /* CoreGraphics.framework */; };
+		FDD833E9F0B6442BA3A51C0F /* libPods-SyncKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD770B5BEC240E1B2081261 /* libPods-SyncKitTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0783598187FEBA7002A8AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A078357A187FEBA7002A8AE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0783581187FEBA7002A8AE9;
+			remoteInfo = SyncKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0783580187FEBA7002A8AE9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A078358B187FEBA7002A8AE9 /* SyncKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0269234E48AB4FEBAC149CDB /* Pods-SyncKitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncKitTests.xcconfig"; path = "Pods/Pods-SyncKitTests.xcconfig"; sourceTree = "<group>"; };
+		5EAEB9EC4CA8491CB9AD04A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD770B5BEC240E1B2081261 /* libPods-SyncKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SyncKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0783582187FEBA7002A8AE9 /* libSyncKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSyncKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0783585187FEBA7002A8AE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0783589187FEBA7002A8AE9 /* SyncKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SyncKit-Prefix.pch"; sourceTree = "<group>"; };
+		A078358A187FEBA7002A8AE9 /* SyncKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncKit.h; sourceTree = "<group>"; };
+		A0783592187FEBA7002A8AE9 /* SyncKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0783593187FEBA7002A8AE9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A0783596187FEBA7002A8AE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A078359D187FEBA7002A8AE9 /* SyncKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SyncKitTests-Info.plist"; sourceTree = "<group>"; };
+		A078359F187FEBA7002A8AE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A07835A1187FEBA7002A8AE9 /* SyncKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyncKitTests.m; sourceTree = "<group>"; };
+		A07835AB187FF089002A8AE9 /* AGDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGDocument.h; sourceTree = "<group>"; };
+		A07835AC187FF089002A8AE9 /* AGDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGDocument.m; sourceTree = "<group>"; };
+		A07835AE187FF6E5002A8AE9 /* AGSyncClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSyncClient.h; sourceTree = "<group>"; };
+		A07835AF187FF6E5002A8AE9 /* AGSyncClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSyncClient.m; sourceTree = "<group>"; };
+		A07835B1187FFCBB002A8AE9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A07835B3187FFCC2002A8AE9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A07835B5187FFCC9002A8AE9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A07835B7187FFCD1002A8AE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E20841DD8A9B4B62B3D3C4D0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A078357F187FEBA7002A8AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0783586187FEBA7002A8AE9 /* Foundation.framework in Frameworks */,
+				612E9D8E371C4646A1423C9F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A078358F187FEBA7002A8AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07835B8187FFCD1002A8AE9 /* CoreGraphics.framework in Frameworks */,
+				A07835B6187FFCC9002A8AE9 /* Security.framework in Frameworks */,
+				A07835B4187FFCC2002A8AE9 /* SystemConfiguration.framework in Frameworks */,
+				A07835B2187FFCBB002A8AE9 /* MobileCoreServices.framework in Frameworks */,
+				A0783594187FEBA7002A8AE9 /* XCTest.framework in Frameworks */,
+				A0783597187FEBA7002A8AE9 /* UIKit.framework in Frameworks */,
+				A0783595187FEBA7002A8AE9 /* Foundation.framework in Frameworks */,
+				A078359A187FEBA7002A8AE9 /* libSyncKit.a in Frameworks */,
+				FDD833E9F0B6442BA3A51C0F /* libPods-SyncKitTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0783579187FEBA7002A8AE9 = {
+			isa = PBXGroup;
+			children = (
+				A0783587187FEBA7002A8AE9 /* SyncKit */,
+				A078359B187FEBA7002A8AE9 /* SyncKitTests */,
+				A0783584187FEBA7002A8AE9 /* Frameworks */,
+				A0783583187FEBA7002A8AE9 /* Products */,
+				E20841DD8A9B4B62B3D3C4D0 /* Pods.xcconfig */,
+				0269234E48AB4FEBAC149CDB /* Pods-SyncKitTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A0783583187FEBA7002A8AE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0783582187FEBA7002A8AE9 /* libSyncKit.a */,
+				A0783592187FEBA7002A8AE9 /* SyncKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0783584187FEBA7002A8AE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A07835B7187FFCD1002A8AE9 /* CoreGraphics.framework */,
+				A07835B5187FFCC9002A8AE9 /* Security.framework */,
+				A07835B3187FFCC2002A8AE9 /* SystemConfiguration.framework */,
+				A07835B1187FFCBB002A8AE9 /* MobileCoreServices.framework */,
+				A0783585187FEBA7002A8AE9 /* Foundation.framework */,
+				A0783593187FEBA7002A8AE9 /* XCTest.framework */,
+				A0783596187FEBA7002A8AE9 /* UIKit.framework */,
+				5EAEB9EC4CA8491CB9AD04A1 /* libPods.a */,
+				8AD770B5BEC240E1B2081261 /* libPods-SyncKitTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0783587187FEBA7002A8AE9 /* SyncKit */ = {
+			isa = PBXGroup;
+			children = (
+				A078358A187FEBA7002A8AE9 /* SyncKit.h */,
+				A07835AB187FF089002A8AE9 /* AGDocument.h */,
+				A07835AC187FF089002A8AE9 /* AGDocument.m */,
+				A0783588187FEBA7002A8AE9 /* Supporting Files */,
+				A07835AE187FF6E5002A8AE9 /* AGSyncClient.h */,
+				A07835AF187FF6E5002A8AE9 /* AGSyncClient.m */,
+			);
+			path = SyncKit;
+			sourceTree = "<group>";
+		};
+		A0783588187FEBA7002A8AE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0783589187FEBA7002A8AE9 /* SyncKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A078359B187FEBA7002A8AE9 /* SyncKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A07835A1187FEBA7002A8AE9 /* SyncKitTests.m */,
+				A078359C187FEBA7002A8AE9 /* Supporting Files */,
+			);
+			path = SyncKitTests;
+			sourceTree = "<group>";
+		};
+		A078359C187FEBA7002A8AE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A078359D187FEBA7002A8AE9 /* SyncKitTests-Info.plist */,
+				A078359E187FEBA7002A8AE9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0783581187FEBA7002A8AE9 /* SyncKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07835A5187FEBA7002A8AE9 /* Build configuration list for PBXNativeTarget "SyncKit" */;
+			buildPhases = (
+				B2BC2C5409EF49468D19F6D8 /* Check Pods Manifest.lock */,
+				A078357E187FEBA7002A8AE9 /* Sources */,
+				A078357F187FEBA7002A8AE9 /* Frameworks */,
+				A0783580187FEBA7002A8AE9 /* CopyFiles */,
+				4718FE8A0C4C46318DF300C8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyncKit;
+			productName = SyncKit;
+			productReference = A0783582187FEBA7002A8AE9 /* libSyncKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A0783591187FEBA7002A8AE9 /* SyncKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07835A8187FEBA7002A8AE9 /* Build configuration list for PBXNativeTarget "SyncKitTests" */;
+			buildPhases = (
+				C60E1CF3370448F19AC51AC5 /* Check Pods Manifest.lock */,
+				A078358E187FEBA7002A8AE9 /* Sources */,
+				A078358F187FEBA7002A8AE9 /* Frameworks */,
+				A0783590187FEBA7002A8AE9 /* Resources */,
+				FFFE34EF10AF4D3DAEAB2251 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0783599187FEBA7002A8AE9 /* PBXTargetDependency */,
+			);
+			name = SyncKitTests;
+			productName = SyncKitTests;
+			productReference = A0783592187FEBA7002A8AE9 /* SyncKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A078357A187FEBA7002A8AE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Red Hat";
+			};
+			buildConfigurationList = A078357D187FEBA7002A8AE9 /* Build configuration list for PBXProject "SyncKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0783579187FEBA7002A8AE9;
+			productRefGroup = A0783583187FEBA7002A8AE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0783581187FEBA7002A8AE9 /* SyncKit */,
+				A0783591187FEBA7002A8AE9 /* SyncKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0783590187FEBA7002A8AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07835A0187FEBA7002A8AE9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4718FE8A0C4C46318DF300C8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2BC2C5409EF49468D19F6D8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C60E1CF3370448F19AC51AC5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFFE34EF10AF4D3DAEAB2251 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SyncKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A078357E187FEBA7002A8AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07835AD187FF089002A8AE9 /* AGDocument.m in Sources */,
+				A07835B0187FF6E5002A8AE9 /* AGSyncClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A078358E187FEBA7002A8AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07835A2187FEBA7002A8AE9 /* SyncKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0783599187FEBA7002A8AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0783581187FEBA7002A8AE9 /* SyncKit */;
+			targetProxy = A0783598187FEBA7002A8AE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A078359E187FEBA7002A8AE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A078359F187FEBA7002A8AE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A07835A3187FEBA7002A8AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A07835A4187FEBA7002A8AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A07835A6187FEBA7002A8AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20841DD8A9B4B62B3D3C4D0 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/SyncKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyncKit/SyncKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A07835A7187FEBA7002A8AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20841DD8A9B4B62B3D3C4D0 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/SyncKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyncKit/SyncKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A07835A9187FEBA7002A8AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0269234E48AB4FEBAC149CDB /* Pods-SyncKitTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyncKit/SyncKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SyncKitTests/SyncKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A07835AA187FEBA7002A8AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0269234E48AB4FEBAC149CDB /* Pods-SyncKitTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyncKit/SyncKit-Prefix.pch";
+				INFOPLIST_FILE = "SyncKitTests/SyncKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A078357D187FEBA7002A8AE9 /* Build configuration list for PBXProject "SyncKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07835A3187FEBA7002A8AE9 /* Debug */,
+				A07835A4187FEBA7002A8AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07835A5187FEBA7002A8AE9 /* Build configuration list for PBXNativeTarget "SyncKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07835A6187FEBA7002A8AE9 /* Debug */,
+				A07835A7187FEBA7002A8AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07835A8187FEBA7002A8AE9 /* Build configuration list for PBXNativeTarget "SyncKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07835A9187FEBA7002A8AE9 /* Debug */,
+				A07835AA187FEBA7002A8AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A078357A187FEBA7002A8AE9 /* Project object */;
+}
